@@ -341,7 +341,7 @@ header
 
 .header-area .main-nav .logo {
   line-height: 80px;
-  color: rgb(8, 0, 28);
+  color: rgb(255, 255, 255);
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;
@@ -1007,7 +1007,7 @@ services
 .service-item .service-title {
   font-weight: 500;
   font-size: 18px;
-  color: #1e1e1e;
+  color: #942d2d;
   letter-spacing: 0.7px;
   margin-bottom: 15px;
   position: relative;
@@ -1310,6 +1310,65 @@ contact
 
 .contact-form ::placeholder {
   color: #fff;
+}
+/*ROADMAP 
+---------------------------------------------
+*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.roadmap-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px;
+  text-align: center;
+}
+
+.timeline {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.milestone {
+  flex: 1;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background: linear-gradient(to right, #23a19b, #0977f5); /* Cambio de color de fondo */
+  margin-right: 5mm; /* Espaciado de 5 mm entre contenedores */
+}
+
+.milestone:last-child {
+  margin-right: 0; /* Eliminar el espaciado del último contenedor */
+}
+
+.milestone h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline {
+      flex-direction: column;
+  }
+
+  .milestone {
+      margin-bottom: 20px;
+  }
 }
 
 /* 
