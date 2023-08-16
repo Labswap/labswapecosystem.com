@@ -629,6 +629,13 @@ background: linear-gradient(to right, #336699, #65c997);
   .header-area .logo {
     margin-left: 200px;
   }
+  /* Estilo para logotipo en dispositivos móviles */
+@media (max-width: 767px) {
+  .logo-image {
+    max-width: 75px; /* Ajusta este valor según sea necesario */
+    height: auto;
+  }
+}
   .header-area .menu-trigger {
     display: block !important;
   }
@@ -1339,7 +1346,7 @@ body {
   padding: 20px;
   border: 2px solid #ccc;
   border-radius: 8px;
-  background: linear-gradient(to right, #23a19b, #0977f5); /* Cambio de color de fondo */
+  background: linear-gradient(to right, #23a19b, #0977f5); /* Cambio de color de fondo */  
   margin-right: 5mm; /* Espaciado de 5 mm entre contenedores */
 }
 
