@@ -837,7 +837,7 @@ TRY IT ... with or without CENTER CENTER
     margin-bottom: 40px;
   }
   .welcome-area .header-text img {
-    width: 80%;
+    width: 80%;  
     margin-top: 20px;
   }
 }
@@ -1321,6 +1321,29 @@ contact
 /*ROADMAP 
 ---------------------------------------------
 */
+/* Your existing styles... */
+
+.timeline-connector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.connector-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #999;
+}
+
+.connector-circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #999;
+}
+
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
