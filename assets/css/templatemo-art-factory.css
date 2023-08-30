@@ -1133,10 +1133,10 @@ accordions
 
 #frequently-question .left-text span {
   font-size: 16px;
-  color: #1000a1;
+  color: #ffffff;
   margin-bottom: 50px;
   display: block;
-}
+} 
 
 #frequently-question .left-text span a {
   font-weight: 500;
@@ -1149,7 +1149,7 @@ accordions
 }
 
 .accordions {
-  background-color: #6b62c0;
+  background: linear-gradient(to right, #23a19b, #0977f5); /* Cambio de color de fondo */  
 }
 .accordion-head {
   padding: 20px;
@@ -1318,6 +1318,51 @@ contact
 .contact-form ::placeholder {
   color: #fff;
 }
+
+/* Styles for NFT Collection Section */
+.nft-section {
+
+    padding: 80px 0;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.gallery-item {
+    width: calc(33.33% - 20px);
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.gallery-header {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Styles for NFT Description */
+.nft-description {
+    margin-top: 40px;
+}
+
+/* Additional Styles */
+/* ... (your existing styles) ... */
+
+
 /*ROADMAP 
 ---------------------------------------------
 */
