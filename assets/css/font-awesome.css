@@ -624,7 +624,7 @@
 .fa-phone-square:before {
   content: "\f098";
 }
-.fa-x-twitter></i>:before {
+.fa-x-twitter:before {
   content: "\e61b";
 }
 .fa-facebook-f:before,
@@ -2334,7 +2334,4 @@
   margin: 0;
   overflow: visible;
   clip: auto;
-}
-.fa-x-twitter></i>:before {
-  content: "\e61b";
 }
