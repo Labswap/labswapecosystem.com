@@ -20,15 +20,7 @@
   });
 
   $(window).scroll(function() {
-    var scroll = $(window).scrollTop();
-    var box = $(".header-text").height();
-    var header = $("header").height();
-
-    if (scroll >= box - header) {
-      $("header").addClass("background-header");
-    } else {
-      $("header").removeClass("background-header");
-    }
+    checkScrollAndModifyNavBar();
   });
 
   // Mobile menu dropdown
@@ -77,6 +69,9 @@
   });
 
   $(document).ready(function() {
+
+    checkScrollAndModifyNavBar();
+
     $(document).on("scroll", onScroll);
 
     //smoothscroll
@@ -241,4 +236,15 @@
       }
     );
   });
+
+
+  function checkScrollAndModifyNavBar(){
+    var scroll = $(window).scrollTop();
+    if (scroll > 0) {
+      $("header").addClass("background-header");
+    } else {
+      $("header").removeClass("background-header");
+    }
+  }
+
 })(window.jQuery);
