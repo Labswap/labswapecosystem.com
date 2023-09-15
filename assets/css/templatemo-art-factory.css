@@ -1099,6 +1099,23 @@ contact
   text-align: center;
   margin-top: 40px;
 }
+.pill-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: linear-gradient(to right, #0977f5, #23a19b);
+    color: #fff; /* Color del texto del botón */
+    border-radius: 25px; /* Bordes redondeados para forma de pastilla */
+    transition: background-color 0.3s ease;
+}
+
+.pill-button:hover {
+    background-color: #81b6ee; /* Color de fondo al pasar el cursor sobre el botón */
+}
+
 
 /* Styles for NFT Description */
 .nft-description {
