@@ -1064,6 +1064,13 @@ contact
 .contact-form ::placeholder {
   color: #fff;
 }
+.whitepaper-text.left-text li {
+  color: white;
+}
+
+.whitepaper-text.left-text p.address {
+  color: white;
+}
 
 /* Styles for NFT Collection Section */
 .nft-section {
