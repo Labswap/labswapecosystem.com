@@ -21,9 +21,19 @@
     <link rel="apple-touch-icon" src="assets/images/LBLOGO.png">
     <link rel="shortcut icon" href="assets/images/FAVICON.png">
 
+        <!-- ... (otros elementos head) ... -->
+    
+        <style>
+            /* Estilo para ajustar el margen superior de la imagen en vista móvil */
+            @media (max-width: 767px) {
+                img[src="assets/images/BannerWEB.jpg"] {
+                    margin-top: 2cm; /* Ajusta este valor según sea necesario */
+                }
+            }
+        </style> 
 </head>
 <body>
-    <img src="assets/images/header-background-ecolab.png" alt="Header" style="width: 100%; height: auto;">
+    <img src="assets/images/BannerWEB.jpg" alt="Header" style="width: 100%; height: auto;">
 
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
@@ -130,23 +140,28 @@
                     <h5>ECOLAB Whitepaper</h5>
                 </div>
                 <div class="whitepaper-text left-text">
-                    <p>We've merged LAB and FLASK into a new single token called '$ECOLAB Labswap Ecosystem' to
+                    <p class="address">Contract address: <span id="contractAddress">0x25331ba95a10375b765c0e2614e48621a1357d00</span></p>
+
+
+                    <p>We've merged LAB and FLASK into a new single token called '$ECOLAB Labswap ECOsystem' to
                         facilitate better integration within the Labswap ecosystem. Our staking and other DeFi
                         features will enhance the demand and reduce the supply, while also fostering value growth
                         through staking and NFTs. Through our yield farm, you will be able to maximize the benefits
                         from your $ECOLAB.
 
-                        $ECOLAB is a decentralized finance (DeFi) token that operates on the Binance Smart Chain
-                        (BEP-20). The token was launched with an initial 6B (billions) tokens.
-
-                        <li>Token symbol: LAB</li>
-                        <li>Initial supply: 6,000,000,000 ($LAB)</li>
+                        <li>$ECOLAB is a decentralized finance (DeFi) token that operates on the Binance Chain
+                        (BEP-20). The token was launched with an initial 3.72B (billions) tokens.</li>
+                        <li>Token name: LAB ECOsystem</li>
+                        <li>Token symbol: ECOLAB</li>
+                        <li>Maximun supply: 6,000,000,000</li>
+                        <li>Total supply: 3,720,000,000</li>
                         <li>Network: BNB Chain [BSC]</li>
-                        <li>● 75% for Liquidity :. 4,500,000,000</li>
-                        <li>● 5 % for Core Team :. 300,000,000</li>
-                        <li>● 10% Marketing :: :. 600,000,000</li>
-                        <li>● 10% Ecosystem :. 600,000,000</li>
-                    </p>
+                        <li>● 23% Merge LAB and FLASK :. 1,380,000,000</li>
+                        <li>● 47% for Liquidity :. 2.820,000,000</li>
+                        <li>● 20% Block Algorithm :: :. 1,200,000,000</li>
+                        <li>● 10% Marketing :. 600,000,000</li>
+
+                        
                 </div>
             </div>
         </div>
@@ -220,6 +235,9 @@
                 </div>
             </div>
             <div class="gallery-header">
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; height: 1vh;">
+                <a href="https://opensea.io/collection/labscientistdao" class="pill-button">View on OpenSea</a>
             </div>
         </div>
     </section>
@@ -350,7 +368,7 @@
                     <ul class="social">
                         <li><a href="https://www.instagram.com/labswap" target="_blank"><i
                                     class="fa fa-instagram"></i></a></li>
-                        <li><a href="https://twitter.com/labscientistdao" target="_blank"><i
+                        <li><a href="https://twitter.com/labswapECO" target="_blank"><i
                                     class="fa fa-twitter"></i></a></li>
                         <li><a href="https://t.me/labswapcommunity" target="_blank"><i class="fa fa-telegram"></i></a>
                         </li>
