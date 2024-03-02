@@ -23,6 +23,16 @@
     checkScrollAndModifyNavBar();
   });
 
+  /* Copy contract address */
+  $(".js-copy-to-clip").on("click", function () {
+    navigator.clipboard.writeText
+      ($('#content-to-copy').html());
+      $('#text-button-copy').html("Copied!");
+      setTimeout(() => {
+        $('#text-button-copy').html("Click to copy");
+      }, 2000)
+  });
+
   // Mobile menu dropdown
   $(".submenu").on("click", function() {
     var width = $(window).width();

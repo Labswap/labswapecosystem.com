@@ -1,0 +1,71 @@
+div.ecolab-tokenomics-content ul.tokenomics-list{
+    margin-top: 40px;
+}
+
+div.ecolab-tokenomics-content ul {
+    width: min(60rem, 90%);
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+    justify-content: center;
+    gap: 2rem;
+    list-style: none;
+}
+
+div.ecolab-tokenomics-content ul li {
+    max-width: 12rem;
+    justify-self: center;
+    display: grid;
+    grid-template:
+        "icon"
+        "line"
+        "dot"
+        "title"
+        "descr" 1fr;
+    justify-items: center;
+    align-items: flex-start;
+    text-align: center;
+}
+
+div.ecolab-tokenomics-content ul li .icon {
+    grid-area: icon;
+    width: 6rem;
+    aspect-ratio: 1;
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 2.5rem;
+    border: 0.4rem solid var(--bgColor);
+    border-radius: 50%;
+    background: var(--accent-color);
+    box-shadow: -0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.45),
+        inset -0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.45);
+}
+
+div.ecolab-tokenomics-content ul li::before {
+    content: "";
+    grid-area: line;
+    height: 2rem;
+    border-right: 2px dotted currentColor;
+}
+
+div.ecolab-tokenomics-content ul li::after {
+    content: "";
+    grid-area: dot;
+    width: 1rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background: var(--accent-color);
+    justify-self: center;
+    margin-bottom: 0.5rem;
+}
+
+div.ecolab-tokenomics-content ul li .title {
+    grid-area: title;
+    margin-block: 0.5rem;
+    font-size: 1.2rem;
+    text-wrap: nowrap;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+}
