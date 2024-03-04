@@ -610,7 +610,9 @@ TRY IT ... with or without CENTER CENTER
 }
 
 .welcome-area .splash-01 {
-  padding-top: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .welcome-area .header-text {
