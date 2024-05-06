@@ -84,9 +84,8 @@
       });
       $(this).addClass("active");
 
-      var target = this.hash,
-        menu = target;
       var target = $(this.hash);
+
       $("html, body")
         .stop()
         .animate(
@@ -96,7 +95,7 @@
           500,
           "swing",
           function() {
-            window.location.hash = target;
+            window.location.hash = target.attr('id');
             $(document).on("scroll", onScroll);
           }
         );
