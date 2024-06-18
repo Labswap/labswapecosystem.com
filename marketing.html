@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    <img src="assets/images/BannerWEB.jpg" class="image-header" alt="Header" style="width: 100%; height: auto;">
+    <img src="" class="image-header" alt="Header" style="width: 100%; height: auto;">
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
@@ -67,12 +67,315 @@
                             <span>Menu</span>
                         </a>
                         <!-- ***** Menu End ***** -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <div class="welcome-area" id="welcome">
+        <img src="assets/images/banner-bg3.png" class="splash-01" alt="Splash transition image">
+        <!-- ***** Header Text Start ***** -->
+        <div class="header-text">
+            <div class="container">
+                <div class="row">
+                    <div class="left-text col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                        data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                        <h1>LABSWAP ECOSYSTEM<strong></strong></h1>
+                        <p>Decentralized finance focused on Stake, Yield Farming & NFTs on BNB Chain</p>
+                        <a href="https://labswap.finance" class="main-button-slider mobile-button">Launch App</a>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"
+                        data-scroll-reveal="enter right move 30px over 0.6s after 0.4s" style="margin-top: 3cm;">
+                        <img src="assets/images/tractor_ecolab.png" class="rounded img-fluid d-block mx-auto"
+                            alt="First Vector Graphic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***** Header Text End ***** -->
+    <!-- ***** Welcome Area End ***** -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <!-- Imagen introduction con clase CSS para ajuste -->
+                    <img src="assets/images/left-image.png" class="rounded img-fluid d-block mx-auto image-adjustment"
+                        alt="App">
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <!-- introduction -->
+                    <div class="left-heading">
+                        <h5>Introduction</h5>
+                    </div>
+                    <div class="introdution-text left-text">
+                        <p>Labswap Ecosystem: A decentralized exchange and automated market maker (AMM) system on the
+                            BNB Chain. Our ecosystem is designed to offerering stake, yield farming, NFTs, coding, and
+                            marketing solutions. Our goal is to integrate other projects into our ecosystem, providing
+                            users with opportunities for stake and yield farming</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item Start ***** -->
+
+    <section class="section" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12 col-sm-12">
+                    <!-- Imagen del Whitepaper en la parte derecha -->
+                    <img src="assets/images/ECOLAB_logo.png" class="img-fluid" alt="Whitepaper Logo">
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12"
+                    data-scroll-reveal="enter left move 30px over 0.6s after 0.4s">
+                    <!-- Contenido del Whitepaper en la parte izquierda -->
+                    <div class="left-heading">
+                        <div>
+                            <h5>ECOLAB Whitepaper</h5>
+                        </div>
+                        <div class="whitepaper-text left-text">
+                            <p class="address" id="contractAddress">Contract address:
+                                <span>0x25331ba95a10375b765c0e2614e48621a1357d00</span>
+                            </p>
+
+                            <li>ECOLAB is a decentralized finance (DeFi) token that operates on the Binance Chain
+                                (BEP-20). We’ve merged LAB and FLASK into a new single token called ‘$ECOLAB Labswap
+                                ECOsystem’ to facilitate better integration within the Labswap ecosystem. Our
+                                staking and other DeFi features will enhance the demand and reduce the supply, while
+                                also fostering value growth through staking and NFTs. Through our yield farm, you
+                                will be able to maximize the benefits from your $ECOLAB.</li>
+
+                            <li>Token name: LAB ECOsystem</li>
+                            <li>Token symbol: ECOLAB</li>
+                            <li>Maximun supply: 6,000,000,000</li>
+                            <li>Total supply: 5,760,000,000</li>
+                            <li>Network: BNB Chain [BSC]</li>
+                            <li>● 25% Merge LAB and FLASK :. 1,500,000,000</li>
+                            <li>● 25% for Liquidity :. 1.500,000,000</li>
+                            <li>● 20% Block Algorithm :: :. 1,200,000,000</li>
+                            <li>● 20% Exchanges listing :. 1,200,000,000</li>
+                            <li>● 10% Marketing :. 600,000,000</li>
+                        </div>
+
+                        <!-- Agrega un script para copiar la dirección al hacer clic en ella -->
+                        <script>
+                            document.getElementById('contractAddress').addEventListener('click', function () {
+                                var addressText = this.querySelector('span');
+                                var range = document.createRange();
+                                range.selectNode(addressText);
+                                window.getSelection().removeAllRanges();
+                                window.getSelection().addRange(range);
+                                document.execCommand('copy');
+                                window.getSelection().removeAllRanges();
+                                alert('Contract Address copied! ' + addressText.innerText);
+                            });
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Features Big Item End ***** -->
+
+    <!-- ***** NFT Collection ***** -->
+    <section class="section" id="nft">
+        <!-- ***** Banner Section ***** -->
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <video src="assets/images/bannernft.mp4" autoplay loop muted
+                            style="max-width: 100%; border: 1px solid #000000; border-radius: 5mm;"></video>
+                    </div>
+                </div>
+            </div>
+        <!-- ***** Banner Section End ***** -->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading"
+                        style="text-align: center; font-size: 36px; font-weight: bold; margin-top: 5rem;">
+                        <h2>LabScientistDAO NFT Collection</h2>
+                    </div>
+                </div>
+                <div class="col-lg-12">
+                    <div class="nft-description"
+                        style="text-align: center; font-size: 20px; font-weight: bold; color: #333333;">
+                        <p style="line-height: 1.5;">
+                            LabScientistDAO is an NFT collection of 555 unique pieces hand-drawn
+                            powered by Labswap Ecosystem. Your LabScientistDAO is also your
+                            membership pass to vote and make decisions. Those who own our NFTs will
+                            have the power to vote and decide what will be our next moves. Buy now
+                            an NFT from our collection and get an AIRDROP of our new token $ECOLAB
+                            for 70% of the value of the acquired NFT.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="nft-section">
+        <div class="container">
+            <div class="gallery">
+                <div class="gallery-item">
+                    <a href="https://element.market/collections/lab-scientist-dao-324221">
+                        <img src="assets/images/imagen_1.png" alt="Image 1"
+                            style="max-width: 100%; height: auto; border-radius: 5mm;">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://element.market/collections/lab-scientist-dao-324221">
+                        <img src="assets/images/imagen_2.png" alt="Image 2"
+                            style="max-width: 100%; height: auto; border-radius: 5mm;">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://element.market/collections/lab-scientist-dao-324221">
+                        <img src="assets/images/imagen_3.png" alt="Image 3"
+                            style="max-width: 100%; height: auto; border-radius: 5mm;">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://element.market/collections/lab-scientist-dao-324221">
+                        <img src="assets/images/imagen_4.png" alt="Image 4"
+                            style="max-width: 100%; height: auto; border-radius: 5mm;">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://element.market/collections/lab-scientist-dao-324221">
+                        <img src="assets/images/imagen_5.png" alt="Image 5"
+                            style="max-width: 100%; height: auto; border-radius: 5mm;">
+                    </a>
+                </div>
+                <div class="gallery-item">
+                    <a href="https://element.market/collections/lab-scientist-dao-324221">
+                        <img src="assets/images/imagen_6.png" alt="Image 6"
+                            style="max-width: 100%; height: auto; border-radius: 5mm;">
+                    </a>
+                </div>
+            </div>
+            <div class="gallery-header">
+            </div>
+            <div style="display: flex; justify-content: center; align-items: center; height: 1vh;">
+                <a href="https://element.market/collections/lab-scientist-dao-324221" class="pill-button">View
+                    Collection</a>
+            </div>
+        </div>
+    </section>
+    <!-- ***** NFT Collection End ***** -->
+
+    <!-- ***** Roadmap Start ***** -->
+    <section class="roadmap-section">
+        <div class="roadmap-container">
+            <h1>Labswap Ecosystem Roadmap</h1>
+            <div class="timeline">
+                <div class="milestone">
+                    <h2>Q1</h2>
+                    <ul>
+                        <li>-New Website</li>
+                        <li>-Merge LAB and FLASK into a new single token (ECOLAB)</li>
+                        <li>-Smart contract verification</li>
+                        <li>-Audit $ECOLAB</li>
+                    </ul>
+                </div>
+                <div class="milestone">
+                    <h2>Q2</h2>
+                    <ul>
+                        <li>-Fairlaunch on PinkSale</li>
+                        <li>-$ECOLAB Launching</li>
+                        <li>-Upgrade our DeFi Hub with new features</li>
+                        <li>-Get Listed on CoinMarketCap and CoinGecko</li>
+                    </ul>
+                </div>
+                <div class="milestone">
+                    <h2>Q3</h2>
+                    <ul>
+                        <li>-Provide marketing and code solutions</li>
+                        <li>-Integrate Stake pool and Yield Farming for third-party projects</li>
+                        <li>-DAO Governance is completely turned over to the community</li>
+                        <li>-Vote and give to the community the power to take decisions about the next integrations in
+                            our ecosystem</li>
+                    </ul>
+                </div>
+                <div class="milestone">
+                    <h2>Q4</h2>
+                    <ul>
+                        <li>-Central/Decentralized Exchange Listings to Increase Further Adoption</li>
+                        <li>-Events for the community</li>
+                        <li>-Multiple chain integration</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Roadmap End ***** -->
+
+    <!-- ***** Frequently Question Start ***** -->
+    <section class="section" id="faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-heading">
+                        <h2>Frequently Questions</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="accordions is-first-expanded">
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>What is the difference between staking and farming?</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>Staking in Stake Pools and farming with Yield Farming are both ways to earn more
+                                        ECOLAB by supporting Labswap. Staking only needs some ECOLAB tokens to be added
+                                        to a STAKE Pool to earn LAB or other tokens. Learn more about Stake Pool
+                                        staking.<br><br> Farming is more complicated and needs LP Tokens to earn LAB.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="accordion">
+                            <div class="accordion-head">
+                                <span>When will you open more pools?</span>
+                                <span class="icon">
+                                    <i class="icon fa fa-chevron-right"></i>
+                                </span>
+                            </div>
+                            <div class="accordion-body">
+                                <div class="content">
+                                    <p>New Pools are added to Labswap soon. There will always be an announcement before
+                                        the launch of new pools. Join the announcements Telegram group to learn about
+                                        new Pools as early as possible.</p>
+                                </div>
+                            </div>
+                        </article>
+                        <!-- Agregar más preguntas y respuestas aquí si es necesario -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Frequently Question End ***** -->
     <!-- ***** Footer Start ***** -->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-lg-7 col-md-12 col-sm-12">
-                    <p class="copyright">Copyright &copy; 2021-2024 Labswap Ecosystem LTD.</p>
+                <div class="col-lg-7 col-md-12 col-sm-12"> 
+                    <p class="copyright">Copyright &copy; 2024 Labswap Ecosystem LTD. -    For coding & marketing solutions: info@labswapecosystem.com </p>
                 </div>
                 <div class="col-lg-5 col-md-12 col-sm-12">
                     <ul class="social">
