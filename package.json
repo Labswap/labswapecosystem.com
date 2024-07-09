@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "postcss-purgecss": "^5.0.0"
+  }
+}
