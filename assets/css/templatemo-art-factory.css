@@ -146,7 +146,7 @@ hgroup {
 
 html,
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-weight: 400;
   background-color: #fff;
   font-size: 16px;
@@ -187,7 +187,7 @@ global styles
 html,
 body {
   background: linear-gradient(to right, #3484b9, #1093ff);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 ::selection {
@@ -909,7 +909,7 @@ body {
 
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
   color: white;
