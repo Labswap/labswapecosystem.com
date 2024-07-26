@@ -419,14 +419,16 @@ hr {
 }
 
 .btn {
-    background: #395DFA;
-   
+    /* background: #395DFA; */
+    font-family: "Aileron-bold", Sans-Serif;
     text-transform: uppercase;
-    padding: 27px 44px;
-    color: #fff !important;
+    padding: 28px 44px;
+    /* color: #fff !important; */
+    color: #395DFA;
+    border: 2px solid #395DFA !important;
     cursor: pointer;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     border-radius: 0px;
     line-height: 1;
@@ -2505,12 +2507,12 @@ hr {
 }
 
 .section-tittle3 h2 {
-    font-size: 44px;
+    font-size: 36px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .section-tittle3 h2 {
-        font-size: 38px;
+        font-size: 32px;
     }
 }
 
@@ -3118,14 +3120,14 @@ hr {
 }
 
 .about-area .about-caption .pera-top {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 500;
     color: #212025;
     margin-bottom: 25px;
 }
 
 .about-area .about-caption .pera-bottom {
-    font-size: 16px;
+    font-size: 18px;
     color: #212025;
     font-weight: 300;
 }
