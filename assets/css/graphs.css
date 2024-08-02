@@ -6,7 +6,38 @@
     width: 130px;
     height: 130px;
     position: relative;
+    margin: 0 auto;
 }
+
+ .cat-cap h3 {
+     font-size: 1.45rem;
+ }
+
+ @media (max-width: 1200px) {
+    .percentage-chart {
+        width: 100px;
+        height: 100px;
+    }
+ }
+
+@media (max-width: 990px) {
+    .percentage-chart {
+        width: 80px;
+        height: 80px;
+    }
+    .cat-cap h3 {
+        font-size: 1.25rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .percentage-chart {
+        width: 130px;
+        height: 130px;
+        margin: 0 auto;
+    }
+}
+
 
 .percentage-chart-bg {
     fill: none;
