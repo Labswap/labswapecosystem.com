@@ -24,6 +24,8 @@ html {
 .box-nft {
     overflow: hidden;
     margin-bottom: 30px;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 12px;
 }
 
 img.img-nft{
@@ -35,7 +37,9 @@ img.img-nft:hover {
 }
 
 .img-partner {
-    max-width: 200px;
+    max-width: 175px;
+    border: 1px solid grey;
+    border-radius: 12px;
 }
 
 .white-bg {
