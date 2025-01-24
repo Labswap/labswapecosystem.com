@@ -2832,11 +2832,21 @@ hr {
 
 .slider-area {
     margin-top: -1px;
-    background-image: url(../img/hero/BannerWEB.jpg);
+    background-image: url(../img/hero/.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
     background-attachment: fixed;
+    width: 100%;
+    height: auto; /* Automatically adjust height based on width */
+}
+
+/* Additional rules for mobile devices */
+@media only screen and (max-width: 768px) {
+    .slider-area {
+        background-size: contain; /* Ensure the image fits within the container */
+        background-attachment: scroll; /* Disable fixed background on mobile for better performance */
+    }
 }
 
 .slider-area .hero__caption {
