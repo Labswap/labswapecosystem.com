@@ -7178,4 +7178,11 @@ del {
         background-size: cover; /* Ensure the image covers the entire container on mobile */
     }
 }
-
+/* Ensure the contract address is displayed fully on mobile devices */
+@media (max-width: 768px) {
+    .contract-address {
+        word-break: break-all;
+        white-space: pre-wrap;
+        font-size: 1.5rem; /* Adjust the font size if needed */
+    }
+}
