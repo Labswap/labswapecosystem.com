@@ -7160,3 +7160,17 @@ del {
 .switch-wrap {
     margin-bottom: 10px;
 }
+/* Adjust the banner in mobile view */
+@media (max-width: 768px) {
+    .banner {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Center the text in mobile view */
+@media (max-width: 768px) {
+    .hero__caption, .about-caption, .section-tittle, .wantToWork-caption {
+        text-align: center;
+    }
+}
