@@ -7160,17 +7160,22 @@ del {
 .switch-wrap {
     margin-bottom: 10px;
 }
-/* Adjust the banner in mobile view */
-@media (max-width: 768px) {
-    .banner {
-        width: 100%;
-        height: auto;
+.slider-area {
+    margin-top: -1px;
+    background-image: url(../img/hero/BannerWEB.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: contain; /* Make sure the image fits within the container */
+    background-attachment: scroll; /* Disable fixed background for better performance on mobile */
+    width: 100%;
+    height: auto; /* Automatically adjust height based on width */
+    min-height: 300px; /* Set a minimum height to ensure visibility */
+}
+
+/* Additional rules for mobile devices */
+@media only screen and (max-width: 768px) {
+    .slider-area {
+        background-size: cover; /* Ensure the image covers the entire container on mobile */
     }
 }
 
-/* Center the text in mobile view */
-@media (max-width: 768px) {
-    .hero__caption, .about-caption, .section-tittle, .wantToWork-caption {
-        text-align: center;
-    }
-}
